@@ -13,6 +13,7 @@ export default function Input ({ name, label, ...rest }) {
       path: 'value'
     })
   }, [fieldName, registerField])
+
   return (
     <>
       {label && <label htmlFor={fieldName}>{label}</label>}
